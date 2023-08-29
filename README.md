@@ -1,13 +1,84 @@
-# undergroundcyberfight
-Pick your side in a 24-Hour hack battle powered by The Cloud Underground
+# Underground Cyber Fight
 
-A shared Vulnerable AD environment & DetectionLab config in the same environment
+[https://github.com/cmndcntrlcyber/undergroundcyberfight](https://github.com/cmndcntrlcyber/undergroundcyberfight)
+
+24-hour red v blue hackathon, watch from each sides perspective or both, then team challenges on the weekend
+
+A shared Vulnerable AD environment & DetectionLab environment
 
 A signup page with timeslots as buttons, upon pressing the button, you're prompted to pay for the timeslot, you're provided a one-time, once generated token. (so if it's lost they know the risks going into it)
 
 You can choose blue or red when the user supplies the token
 
-starts an ansible/terraform deployment to an ubuntu or kali rdp session via https
+starts an Ansible/Terraform deployment to an Ubuntu or Kali RDP session via HTTPS
+
+Lead Magnet
+
+# Gamification Objectives
+
+## Red Objectives
+
+Distribute red-token-id at necessary points
+
+## Blue Objectives
+
+Distribute blue-token-id at necessary points
+
+## Score Calculation
+
+- 51 flags planted throughout the environment
+    
+    (1 flag per 24 hrs day * two teams = 48 flags rounded up to 51 so there are no ties) 
+    
+
+Bot sweeps through directories to find the flags of users engaged
+
+end of session
+
+score is passed via api, posts to database that serves to an overlay our video render 
+
+- [ ]  does youtube have something built in for custom overlays?
+    - [ ]  Custom Workspaces
+        - [ ]  OBS
+        - [ ]  VM Version
+        - [ ]  Browser
+        - [ ]  App emulation
+        - [ ]  Zoom function Trigger
+
+## Viewership Methods
+
+![](https://github.com/cmndcntrlcyber/undergroundcyberfight/blob/main/Untitled.png)
+
+
+### Streaming
+
+A participant can choose to stream their session while they hack or defend
+
+A youtube window is broken into 7 parts, a top middle timer, middle topology minimap, one player in each outer-top corner, a view of their monitor in the outer-bottom corner, in the bottom middle is the scorecard over a 24-hour period (at midnight it resets)
+
+### Topology tracking
+
+A small Topological overlay shows where the flags are and where the participant is in relation to them
+
+as the user gets closer to a flag on the topological map the view of the computer display zooms closer to the users’ active terminal until they plant their x-token-id
+
+## Player Interaction
+
+Process from Web App to Console
+
+1. White screen, in the middle it reads `Enter Username:` 
+2. User enters Username 
+3. User selects a single Red or Blue Timeslot 
+4. hit a paywall(?), use paypal or crypto(?)
+5. after payment they receive the red-token
+    1. same token is what bot scans for
+    2. same token will be used for a API granted curl request to payloads staged at an upload server (payload.attck.community/red-token/)
+
+# Infrastructure Objectives
+
+# Version 1
+
+# Version 2
 
 ### Network Segmentation and Isolation within Proxmox:
 
