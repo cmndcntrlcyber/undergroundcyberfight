@@ -1,4 +1,5 @@
 # Underground Cyber Fight
+![](https://github.com/cmndcntrlcyber/undergroundcyberfight/blob/main/The%20Offense%20Dragons.png?raw=true)![](https://github.com/cmndcntrlcyber/undergroundcyberfight/blob/main/The%20Defense%20Shield.png?raw=true)
 
 [https://github.com/cmndcntrlcyber/undergroundcyberfight](https://github.com/cmndcntrlcyber/undergroundcyberfight)
 
