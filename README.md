@@ -11,9 +11,7 @@ A signup page with timeslots as buttons, upon pressing the button, you're prompt
 
 You can choose blue or red when the user supplies the token
 
-starts an Ansible/Terraform deployment to an Ubuntu or Kali RDP session via HTTPS
-
-Lead Magnet
+Starts an Ansible/Terraform deployment to an Ubuntu or Kali RDP session via HTTPS
 
 # Gamification Objectives
 
