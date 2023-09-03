@@ -98,7 +98,7 @@ Process from Web App to Console
         - `echo "deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" | sudo tee /etc/apt/sources.list`
         - Second Ubuntu Server for C2
     - **For Red Team:** Ubuntu 20.04 WebTop with SecOnion
-        - ![SecOnion](https://github.com/Security-Onion-Solutions/securityonion)
+        - [SecOnion](https://github.com/Security-Onion-Solutions/securityonion)
     - **For Blue Team:** Ubuntu 20.04 WebTop with SecOnion
     - **Target Env:** DetectionLab 
 - Leverage Packer to create custom VM images with pre-installed security tools, ensuring consistent deployments.
