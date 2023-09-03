@@ -1,0 +1,6 @@
+cat << EOF > gen-bt-box.yml
+- hosts: localhost
+  tasks:
+    - debug:
+        msg: Blue Team Ready!
+EOF

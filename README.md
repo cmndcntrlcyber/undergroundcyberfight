@@ -95,4 +95,11 @@ Process from Web App to Console
 ### When incorporating cybersecurity tools and technologies:
 
 - Utilize Ansible to automate the installation and configuration of security tools (e.g., intrusion detection systems, vulnerability scanners) within the VMs.
+    - **For Red Team:** Debian WebTop with Kali Packages and Default Desktop 
+        - Second Ubuntu Server for C2
+    - **For Red Team:** Ubuntu 20.04 WebTop with SecOnion
+    - **Target Env:** DetectionLab 
 - Leverage Packer to create custom VM images with pre-installed security tools, ensuring consistent deployments.
+    - **RT WebTop**
+    - **BT WebTop**
+

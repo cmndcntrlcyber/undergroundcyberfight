@@ -1,0 +1,6 @@
+cat << EOF > gen-token.yml
+- hosts: localhost
+  tasks:
+    - debug:
+        msg: Here's your Token!
+EOF
