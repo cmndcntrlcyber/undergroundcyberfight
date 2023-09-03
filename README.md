@@ -5,7 +5,7 @@
 
 24-hour red v blue hackathon, watch from each sides perspective or both, then team challenges on the weekend
 
-A shared Vulnerable AD environment & DetectionLab environment
+A shared DetectionLab environment
 
 A signup page with timeslots as buttons, upon pressing the button, you're prompted to pay for the timeslot, you're provided a one-time, once generated token. (so if it's lost they know the risks going into it)
 
