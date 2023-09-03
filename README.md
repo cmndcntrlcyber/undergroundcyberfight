@@ -1,11 +1,12 @@
 # Underground Cyber Fight
+
 ![](https://www.canva.com/design/DAFsfTkwAEM/_jirTJoIWcJIGL_z9trE2Q/watch?utm_content=DAFsfTkwAEM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 [https://github.com/cmndcntrlcyber/undergroundcyberfight](https://github.com/cmndcntrlcyber/undergroundcyberfight)
 
 24-hour red v blue hackathon, watch from each sides perspective or both, then team challenges on the weekend
 
-A shared Vulnerable AD environment & DetectionLab environment
+A shared DetectionLab environment
 
 A signup page with timeslots as buttons, upon pressing the button, you're prompted to pay for the timeslot, you're provided a one-time, once generated token. (so if it's lost they know the risks going into it)
 
@@ -96,8 +97,12 @@ Process from Web App to Console
     - **For Red Team:** Debian WebTop with Kali Packages and Default Desktop
         - `echo "deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" | sudo tee /etc/apt/sources.list`
         - Second Ubuntu Server for C2
+<<<<<<< HEAD
     - **For Red Team:** Ubuntu 20.04 WebTop with SecOnion
         - ![SecOnion](https://github.com/Security-Onion-Solutions/securityonion)
+=======
+    - **For Blue Team:** Ubuntu 20.04 WebTop with SecOnion
+>>>>>>> 274efc805c3ad9e6166acd222f0c9c7ca4bc6ee0
     - **Target Env:** DetectionLab 
 - Leverage Packer to create custom VM images with pre-installed security tools, ensuring consistent deployments.
     - **RT WebTop**
