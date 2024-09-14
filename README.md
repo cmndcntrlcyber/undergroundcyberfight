@@ -1,6 +1,6 @@
 # Underground Cyber Fight
 
-![]('./Cyber Fight.png')
+![](https://github.com/cmndcntrlcyber/undergroundcyberfight/blob/main/Cyber%20Fight.png)
 
 [https://github.com/cmndcntrlcyber/undergroundcyberfight](https://github.com/cmndcntrlcyber/undergroundcyberfight)
 
